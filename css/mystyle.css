@@ -1,0 +1,134 @@
+body {
+  height: 96vh;
+  background-color: slategray;
+  padding: 5px;
+}
+
+i {
+  color: #6fccdd;
+  text-shadow: 3px 3px black;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+button:disabled {
+  filter: invert(100%);
+}
+
+.wrapper,
+.container,
+.actions {
+  border-radius: 8px;
+}
+
+.wrapper {
+  height: 94vh;
+  background-color: grey;
+  padding: 10px;
+}
+
+.container {
+  position: relative;
+  height: 25%;
+  width: 95%;
+  background-color: slategray;
+  margin-bottom: 10px;
+  box-shadow: inset 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.query {
+  width: 150px;
+  color: white;
+  padding: 5px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  background-color: black;
+}
+
+.actions {
+  width: 180px;
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+img {
+  height: 40px;
+  cursor: pointer;
+}
+
+#form {
+  color: #6fccdd;
+  font-size: 1rem;
+  width: 95%;
+  margin: 8px 30px 8px 8px;
+  overflow-y: hidden;
+}
+
+textarea {
+  width: 98%;
+  height: 100%;
+  background-color: slategray;
+  border: none;
+  overflow-y: auto;
+  outline: none;
+}
+
+#curr-num {
+  position: absolute;
+  right: 0px;
+  bottom: 5px;
+  color: red;
+  margin: auto 10px;
+}
+
+#error {
+  color: red;
+}
+
+#success {
+  color: green;
+}
+
+/* helpers */
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.h-centered {
+  align-items: center;
+}
+
+.v-centered {
+  justify-content: center;
+}
+
+.centered {
+  justify-content: center;
+  align-items: center;
+}
+
+.box-shadow {
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.hide {
+  display: none;
+}
