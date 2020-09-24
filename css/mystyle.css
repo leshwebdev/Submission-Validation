@@ -23,10 +23,6 @@ button {
   outline: inherit;
 }
 
-button:disabled {
-  filter: invert(100%);
-}
-
 .wrapper,
 .container,
 .actions {
@@ -48,25 +44,11 @@ button:disabled {
   box-shadow: inset 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.query {
-  width: 150px;
-  color: white;
-  padding: 5px;
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
-  background-color: black;
-}
-
 .actions {
   width: 180px;
   background-color: white;
   margin-bottom: 20px;
   padding: 5px;
-}
-
-img {
-  height: 40px;
-  cursor: pointer;
 }
 
 #form {
@@ -78,6 +60,8 @@ img {
 }
 
 textarea {
+  color: #6fccdd;
+  font-size: 2rem;
   width: 98%;
   height: 100%;
   background-color: slategray;
